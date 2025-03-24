@@ -1,6 +1,7 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter
 
 go 1.17
+toolchain go1.24.1
 
 require (
 	github.com/aws/aws-sdk-go v1.42.40
@@ -16,7 +17,7 @@ require (
 	go.opentelemetry.io/collector v0.43.1
 	go.opentelemetry.io/collector/model v0.43.1
 	go.uber.org/zap v1.20.0
-	google.golang.org/protobuf v1.27.1
+	google.golang.org/protobuf v1.36.6
 )
 
 require (
