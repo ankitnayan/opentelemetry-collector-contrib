@@ -1,6 +1,7 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/newrelicexporter
 
 go 1.17
+toolchain go1.24.1
 
 require (
 	github.com/census-instrumentation/opencensus-proto v0.3.0
@@ -15,7 +16,7 @@ require (
 	go.uber.org/zap v1.20.0
 	google.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa
 	google.golang.org/grpc v1.43.0
-	google.golang.org/protobuf v1.27.1
+	google.golang.org/protobuf v1.36.6
 )
 
 require (
