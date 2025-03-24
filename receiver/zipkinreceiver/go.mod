@@ -1,6 +1,7 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zipkinreceiver
 
 go 1.17
+toolchain go1.24.1
 
 require (
 	github.com/jaegertracing/jaeger v1.30.0
@@ -10,7 +11,7 @@ require (
 	github.com/stretchr/testify v1.7.0
 	go.opentelemetry.io/collector v0.43.1
 	go.opentelemetry.io/collector/model v0.43.1
-	google.golang.org/protobuf v1.27.1
+	google.golang.org/protobuf v1.36.6
 )
 
 require (
