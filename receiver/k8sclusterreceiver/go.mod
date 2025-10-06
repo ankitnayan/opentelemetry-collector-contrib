@@ -1,6 +1,6 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
 
-go 1.17
+go 1.23
 
 require (
 	github.com/census-instrumentation/opencensus-proto v0.3.0
@@ -16,7 +16,7 @@ require (
 	go.opentelemetry.io/collector/model v0.43.1
 	go.uber.org/atomic v1.9.0
 	go.uber.org/zap v1.20.0
-	google.golang.org/protobuf v1.27.1
+	google.golang.org/protobuf v1.36.10
 	k8s.io/api v0.23.2
 	k8s.io/apimachinery v0.23.2
 	k8s.io/client-go v0.23.2
@@ -30,7 +30,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.7 // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/googleapis/gnostic v0.5.5 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
